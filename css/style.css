@@ -1,0 +1,145 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+h1, h2, h3, h4, h5, h6,
+p, a, input, textarea,
+button, span {font-family: 'Titillium Web', sans-serif;}
+
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  min-height: auto;
+}
+
+ul:not(.browser-default)
+{
+  letter-spacing: 1px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 550px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .parallax-container .parallax {background: #000;}
+  .parallax-container .parallax img#tlafondo { transform: none !important; opacity: 0.5 !important; width: 100% !important; height:200px !important; left: 0 !important;}
+
+  .teal-text.text-lighten-2
+  {
+    color: white !important;
+  }
+
+  .light
+  {
+    font-size: large;
+  }
+
+  .cliente
+  {
+    text-align: center;
+    font-size: 2.28rem;
+  }
+
+  .teal
+  {
+    background-color: #3355CD !important;
+    text-align: center;
+    font-size: 17px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .direccion
+  {
+    width: 33%;
+    height: 180px;
+    display: inline-block;
+    background-color: #C4C4C4;
+    margin: 0;
+    float: left;
+  }
+
+  .horarios
+  {
+    width: 33%;
+    height: 180px;
+    display: inline-block;
+    background-color: #C4C4C4;
+    margin: 0;
+    float: left;
+  }
+
+  .comuniquese
+  {
+    width: 33%;
+    height: 180px;
+    display: inline-block;
+    background-color: #C4C4C4;
+    margin: 0;
+    float: left;
+  }
+
+  .parrafo2
+  {
+    font-size: 16px;
+  }
+
+  .titulo2
+  {
+    font-size: 23px;
+  }
+
+  .page-footer .footer-copyright
+  {
+    background-color:#3355CD !important ;
+  }
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
